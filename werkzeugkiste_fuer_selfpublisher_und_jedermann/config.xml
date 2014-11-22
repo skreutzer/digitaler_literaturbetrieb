@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html2epub1-config>
+  <out>
+    <metaData>
+      <title>Werkzeugkiste für Self-Publisher und jedermann</title>
+      <creator>Stephan Kreutzer</creator>
+      <subject>Digitaler Literaturbetrieb</subject>
+      <description>Beschreibung der Design-Kriterien der Software, die für publishing-systems.org entwickelt wird.</description>
+      <publisher>Stephan Kreutzer</publisher>
+      <identifier>werkzeuge_fuer_selfpublisher_und_jedermann</identifier>
+      <source>https://github.com/skreutzer/digitaler_literaturbetrieb</source>
+      <language>de</language>
+      <coverage>Kurze Beschreibung des Projekts, freie Lizenzierung, Automatisierung</coverage>
+      <rights>Copyright (C) 2014 Stephan Kreutzer, GNU Affero General Public License 3 or any later version.</rights>
+    </metaData>
+  </out>
+</html2epub1-config>
