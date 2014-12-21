@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- This file was created by html2epub1_config_create_new of html2epub1, which is free software licensed under the GNU Affero General Public License 3 or any later version (see https://github.com/skreutzer/automated_digital_publishing/). --><html2epub1-config>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This file was created by html2epub1_config_create_new of html2epub1, which is free software licensed under the GNU Affero General Public License 3 or any later version (see https://github.com/skreutzer/automated_digital_publishing/). -->
+<html2epub1-config>
   <in>
     <xhtmlSchemaValidation>true</xhtmlSchemaValidation>
     <!-- javax.xml.stream.isValidating: Turns on/off implementation specific DTD validation. -->
@@ -16,6 +18,17 @@
   </in>
   <out>
     <outDirectory/>
-    
-  <metaData><title>Kommentare zum Literaturbetrieb in Zeiten der Digitalisierung</title><creator>Stephan Kreutzer</creator><subject>Digitaler Literaturbetrieb</subject><description>Digitaler Literaturbetrieb</description><publisher>Stephan Kreutzer</publisher><identifier>digitaler_literaturbetrieb</identifier><source>https://github.com/skreutzer/digitaler_literaturbetrieb</source><language>de</language><coverage>Werkzeugkiste für Self-Publisher und jedermann, Crowdfunding als Entlohnungsmodell digitalverträglicher Ökosysteme</coverage><rights>Copyright (C) 2014 Stephan Kreutzer. GNU AGPL 3 or any later version.</rights></metaData></out>
+    <metaData>
+      <title>Kommentare zum Literaturbetrieb in Zeiten der Digitalisierung</title>
+      <creator>Stephan Kreutzer</creator>
+      <subject>Digitaler Literaturbetrieb</subject>
+      <description>Verschiedene Kommentare zu Aspekten des Literaturbetriebs in Zeiten der Digitalisierung, durchaus auch zur Diskussion gestellt.</description>
+      <publisher>Stephan Kreutzer</publisher>
+      <identifier>digitaler_literaturbetrieb</identifier>
+      <source>https://github.com/skreutzer/digitaler_literaturbetrieb</source>
+      <language>de</language>
+      <coverage>Werkzeugkiste für Self-Publisher und jedermann, Das Dilemma der Bibliotheken, Crowdfunding als Entlohnungsmodell digitalverträglicher Ökosysteme</coverage>
+      <rights>Copyright (C) 2014 Stephan Kreutzer. GNU Affero General Public License 3 or any later version.</rights>
+    </metaData>
+  </out>
 </html2epub1-config>
