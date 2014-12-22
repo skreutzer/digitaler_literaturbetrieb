@@ -5,5 +5,6 @@
   <input-file path="./werkzeugkiste_fuer_selfpublisher_und_jedermann.odt"/>
   <input-file path="./das_dilemma_der_bibliotheken.odt"/>
   <input-file path="./crowdfunding_als_entlohnungsmodell_digitalvertraeglicher_oekosysteme.odt"/>
+  <input-file path="./lizenzbestimmungen.odt"/>
   <html2epub1-config-file path="./html2epub1_config.xml"/>
 </odt2all1-config>

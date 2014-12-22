@@ -1,0 +1,50 @@
+Für alle Dateien dieses Repositorys mit Ausnahme des Textes der GNU Affero
+General Public License 3 in $/lizenzbestimmungen.odt sowie als Bestandteil des
+Werks in den diversen Zielformaten unter $/out/ gilt:
+
+  digitaler_literaturbetrieb (C) 2014  Stephan Kreutzer
+
+  digitaler_literaturbetrieb is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License version 3 or any later version,
+  as published by the Free Software Foundation.
+
+  digitaler_literaturbetrieb is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU Affero General Public License 3 for more details.
+
+  You should have received a copy of the GNU Affero General Public License 3
+  along with digitaler_literaturbetrieb. If not, see <http://www.gnu.org/licenses/>.
+
+Die diversen Zielformate können mit Commit #98 der Werkzeugsammlung
+automated_digital_publishing generiert werden. Hierfür braucht lediglich
+https://github.com/publishing-systems/automated_digital_publishing heruntergeladen
+und kompiliert werden. Ein vorbereitetes Download-Package findet sich allerdings
+unter http://www.publishing-systems.org/downloads.php. Erwartet wird ein Verzeichnis
+$/automated_digital_publishing/, worin zunächst $/automated_digital_publishing/workflows/setup1
+ausgeführt werden muss. In dem vorbereiteten Download-Packages findet sich zu diesem
+Zweck eine Datei $/automated_digital_publishing/workflows/run_setup1.sh. Ferner muss
+für die PDF-Erzeugung das LaTeX-Satzsystem installiert sein, was mit
+
+    sudo apt-get install texlive-latex-base
+    sudo apt-get install texlive-latex-memoir
+    sudo apt-get install texlive-lang-german
+
+erreicht werden kann. Anschließend genügt der Aufruf von $/run.sh, in $/out.log
+werden Ausgaben und potentiell Fehlermeldungen protokolliert.
+
+Dieses Verfahren wurde eingerichtet für eine 100% frei lizenzierte Betriebssystemumgebung,
+wobei aus http://www.gnu.org/distros/free-distros.html konkret gNewSense (http://www.gnewsense.org)
+herangezogen wurde. Der Code von automated_digital_publishing ist kompatibel mit Java 1.6 in
+der OpenJDK-Implementierung, die mittels
+
+    sudo apt-get install openjdk-6-jdk
+
+installiert werden kann. Freilich spricht nichts dagegen, dasselbe Verfahren auch
+auf unfreie und/oder nicht-unixoide Betriebssystemumgebungen zu portieren, weil
+aber eine solche Absicht dem Anliegen der Publikation zuwiderläuft, wird an dieser
+Stelle keine Anleitung dazu gegeben. Fragen, Vorschläge, Fehlermeldungen zur
+Aufbereitungssoftware jederzeit gerne an http://www.publishing-systems.org/contact.php
+richten, inhaltliche Fragen, Anregungen, Kommentare und Korrekturen bitte einfach per
+Kontaktformular am Ende der Seite http://www.skreutzer.de/about.html anbringen. Danke!
+
