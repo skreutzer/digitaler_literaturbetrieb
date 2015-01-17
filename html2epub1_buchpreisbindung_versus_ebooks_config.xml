@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This file was created by html2epub1_config_create_new of html2epub1, which is free software licensed under the GNU Affero General Public License 3 or any later version (see https://github.com/skreutzer/automated_digital_publishing/). -->
+<html2epub1-config>
+  <in>
+    <xhtmlSchemaValidation>true</xhtmlSchemaValidation>
+    <!-- javax.xml.stream.isValidating: Turns on/off implementation specific DTD validation. -->
+    <xhtmlReaderDTDValidation>false</xhtmlReaderDTDValidation>
+    <!-- javax.xml.stream.isNamespaceAware: Turns on/off namespace processing for XML 1.0 support. -->
+    <xhtmlReaderNamespaceProcessing>true</xhtmlReaderNamespaceProcessing>
+    <!-- javax.xml.stream.isCoalescing: Requires the processor to coalesce adjacent character data. -->
+    <xhtmlReaderCoalesceAdjacentCharacterData>true</xhtmlReaderCoalesceAdjacentCharacterData>
+    <!-- javax.xml.stream.isReplacingEntityReferences: replace internal entity references with their replacement text and report them as characters. -->
+    <!-- Always true! -->
+    <!-- javax.xml.stream.isSupportingExternalEntities: Resolve external parsed entities. -->
+    <xhtmlReaderResolveExternalParsedEntities>true</xhtmlReaderResolveExternalParsedEntities>
+    <!-- javax.xml.stream.supportDTD: Use this property to request processors that do not support DTDs. -->
+    <xhtmlReaderUseDTDNotDTDFallback>false</xhtmlReaderUseDTDNotDTDFallback>
+  </in>
+  <out>
+    <outDirectory/>
+    <metaData>
+      <title>Buchpreisbindung versus E-Books</title>
+      <creator>Stephan Kreutzer</creator>
+      <subject>Digitaler Literaturbetrieb</subject>
+      <description>Betrachtung verschiedener Aspekte der Buchpreisbindung bei ihrer Anwendung auf E-Books.</description>
+      <publisher>Stephan Kreutzer</publisher>
+      <identifier>buchpreisbindung_versus_ebooks</identifier>
+      <source>https://github.com/skreutzer/digitaler_literaturbetrieb</source>
+      <language>de</language>
+      <coverage>Buchpreisbindung</coverage>
+      <rights>Copyright (C) 2014-2015 Stephan Kreutzer. GNU Affero General Public License 3 or any later version.</rights>
+    </metaData>
+  </out>
+</html2epub1-config>
