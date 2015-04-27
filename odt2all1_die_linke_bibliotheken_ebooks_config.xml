@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was created by odt2all2 workflow, which is free software licensed under the GNU Affero General Public License 3 or any later version (see https://github.com/publishing-systems/automated_digital_publishing/ and http://www.publishing-systems.org). -->
+<odt2all1-config>
+  <input-file path="./die_linke_bibliotheken_ebooks.odt"/>
+  <input-file path="./lizenzbestimmungen.odt"/>
+  <html2epub1-config-file path="./html2epub1_die_linke_bibliotheken_ebooks_config.xml"/>
+  <html2pdf1-workflow-txtreplace1-replacement-dictionary path="./html2pdf1_workflow_txtreplace1_replacement_dictionary_die_linke_bibliotheken_ebooks_config.xml"/>
+</odt2all1-config>
